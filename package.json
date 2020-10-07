@@ -1,28 +1,31 @@
 {
-    "name": "@acteam-it/log-adapter-nodejs",
-    "version": "1.0.0",
-    "description": "Adapter to monitor NodeJS web servers.",
-    "main": "lib/index.js",
-    "directories": {
-        "lib": "lib"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/julientaverne/acteamlog-adapter-nodejs.git"
-    },
-    "author": "Timo Zimmermann",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/julientaverne/acteamlog-adapter-nodejs/issues"
-    },
-    "homepage": "https://github.com/julientaverne/acteamlog-adapter-nodejs#readme",
-    "keywords": [
-        "acteamlog",
-        "adapter",
-        "nodejs",
-        "monitoring"
-    ],
-    "dependencies": {
-        "superagent": "5.2.2"
-    }
+  "name": "@acteam-it/log-adapter-nodejs",
+  "version": "1.0.0",
+  "description": "Adapter to monitor NodeJS web servers.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julientaverne/acteamlog-adapter-nodejs.git"
+  },
+  "author": "Timo Zimmermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julientaverne/acteamlog-adapter-nodejs/issues"
+  },
+  "homepage": "https://github.com/julientaverne/acteamlog-adapter-nodejs#readme",
+  "keywords": [
+    "acteamlog",
+    "adapter",
+    "nodejs",
+    "monitoring"
+  ],
+  "dependencies": {
+    "superagent": "5.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
