@@ -1,6 +1,6 @@
 {
   "name": "@acteam-it/log-adapter-nodejs",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Adapter to monitor NodeJS web servers.",
   "main": "lib/index.js",
   "directories": {
