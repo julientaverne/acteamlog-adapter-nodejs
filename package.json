@@ -1,6 +1,6 @@
 {
-    "name": "@logowl/adapter-nodejs",
-    "version": "2.0.3",
+    "name": "@acteam-it/log-adapter-nodejs",
+    "version": "1.0.0",
     "description": "Adapter to monitor NodeJS web servers.",
     "main": "lib/index.js",
     "directories": {
@@ -8,16 +8,16 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jz222/logowl-adapter-nodejs.git"
+        "url": "git+https://github.com/julientaverne/acteamlog-adapter-nodejs.git"
     },
     "author": "Timo Zimmermann",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jz222/logowl-adapter-nodejs/issues"
+        "url": "https://github.com/julientaverne/acteamlog-adapter-nodejs/issues"
     },
-    "homepage": "https://github.com/jz222/logowl-adapter-nodejs#readme",
+    "homepage": "https://github.com/julientaverne/acteamlog-adapter-nodejs#readme",
     "keywords": [
-        "logowl",
+        "acteamlog",
         "adapter",
         "nodejs",
         "monitoring"
