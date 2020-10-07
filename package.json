@@ -1,6 +1,6 @@
 {
   "name": "@acteam-it/log-adapter-nodejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adapter to monitor NodeJS web servers.",
   "main": "lib/index.js",
   "directories": {
@@ -23,6 +23,7 @@
     "monitoring"
   ],
   "dependencies": {
+    "lowdb": "^1.0.0",
     "superagent": "5.2.2"
   },
   "scripts": {
