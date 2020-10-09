@@ -1,6 +1,3 @@
-npmrc acteamit
-npm publish --access public
-
 # NodeJS Adapter
 The NodeJS adapter tracks errors in your NodeJS application and reports them to the ACTEAMLOG service. Precise details help you tracking down and fixing the root cause.
 
@@ -37,8 +34,19 @@ acteamlog.init({
 Set the ```endpoint``` property to connect to your individual ACTEAMLOG instance at a given address. Please notice that the ```endpoint``` property will be preferred to the ```instance``` property.
 ```node
 acteamlog.init({
-  acteamlog: 'http://url:port',
+  endpoint: 'http://url:port',
   ticket: '5BD98E1E607Z1EEB0CBF02374DEA9B5A835DF2ADD3910F7250'
+});
+```
+
+### Db file
+Set the ```dbfile``` property to store events in json local file when endpoint can not be reached.
+When an error is catch, if endpoint can be reached then all events stored in this file are send.
+```node
+acteamlog.init({
+  endpoint: 'http://url:port',
+  ticket: '5BD98E1E607Z1EEB0CBF02374DEA9B5A835DF2ADD3910F7250',
+  dbfile: 'db.json'
 });
 ```
 
