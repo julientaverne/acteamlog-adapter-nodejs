@@ -50,6 +50,18 @@ acteamlog.init({
 });
 ```
 
+### Secret
+Set the ```secret``` property in order to encrypt data in AES 256, between adapter and ```endpoint```.
+The ```secret``` default value is ```NFd6N3v1nbL47FK0xpZjxZ7NY4fYpNYd``` you must change it.
+```node
+acteamlog.init({
+  endpoint: 'http://url:port',
+  ticket: '5BD98E1E607Z1EEB0CBF02374DEA9B5A835DF2ADD3910F7250',
+  dbfile: 'db.json',
+  secret: 'secretSentence'
+});
+```
+
 ## Verifying setup
 To test if everything works you can just try to execute an undefined function like so.
 ```node
