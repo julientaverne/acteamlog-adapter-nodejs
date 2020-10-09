@@ -31,6 +31,7 @@ acteamlog.init({
         serverId: process.env.SERVER_ID
     }
 });
+```
 
 ### Endpoint
 Set the ```endpoint``` property to connect to your individual ACTEAMLOG instance at a given address. Please notice that the ```endpoint``` property will be preferred to the ```instance``` property.
