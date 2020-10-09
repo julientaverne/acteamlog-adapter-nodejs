@@ -66,7 +66,7 @@ You can also emit errors manually by passing an error instance to the ```emitErr
 try {
     const result = 10 * number;
 } catch (error) {
-    logowl.emitError(error);
+    acteamlog.emitError(error);
 }
 ```
 ### On the fly badges
@@ -75,6 +75,6 @@ You can also add dynamic badges to a specific error if you want to provide addit
 try {
     const result = 10 * number;
 } catch (error) {
-    logowl.emitError(error, { user: req.user.id });
+    acteamlog.emitError(error, { user: req.user.id });
 }
 ```
