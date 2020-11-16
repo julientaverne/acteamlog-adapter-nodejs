@@ -4,7 +4,7 @@ The NodeJS adapter tracks errors in your NodeJS application and reports them to 
 ## Usage
 Install the adapter with ```npm i @acteam-it/log-adapter-nodejs --save```
 ```node
-const acteamlog = require('@acteam-it/log-adapter-nodejs');**
+const acteamlog = require('@acteam-it/log-adapter-nodejs');
 ```
 
 ## Configuration
